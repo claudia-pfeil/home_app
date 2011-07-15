@@ -23,6 +23,12 @@ body {
           width: 200px;
           margin-right: 64em;
         }
+#right_line{
+          display:inline-block;
+          float: right;
+          width: 200px;
+          margin-right: 60em;
+}
 
         #left{
           display:inline-block;
@@ -34,4 +40,5 @@ body {
 #image {
           margin-top: 20em;
 }
+
 
