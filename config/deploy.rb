@@ -68,4 +68,5 @@ namespace :deploy do
   end
 
 end
-after "deploy:symlink","deploy:additional_symlink","deploy:migrate"
+#after "deploy:symlink","deploy:additional_symlink","deploy:migrate"
+after "deploy:symlink", "deploy:additional_symlink"
