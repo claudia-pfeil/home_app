@@ -1,0 +1,35 @@
+/* 
+    Document   : home
+    Created on : 15.07.2011, 15:59:55
+    Author     : claudiapfeil
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+          font-family: Helvetica-Light, sans-serif;
+          font-size: 12pt;
+          color: grey;
+        }
+
+        .right{
+          align:left;
+          position: relative;
+          left: 20em;
+          border: 1em dotted fuchsia;
+          margin-left: 10em;
+        }
+
+        .left{
+          align: right;
+          position: relative;
+          right: 20em;
+          border: 1em dotted green;
+          margin-right: 10em;
+        }
+
