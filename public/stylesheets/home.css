@@ -17,19 +17,17 @@ body {
           color: grey;
         }
 
-        .right{
-          align:left;
-          position: relative;
-          left: 20em;
-          border: 1em dotted fuchsia;
-          margin-left: 10em;
+        #right{
+          display:inline-block;
+          float: right;
+          width: 200px;
+          margin-right: 64em;
         }
 
-        .left{
-          align: right;
-          position: relative;
-          right: 20em;
-          border: 1em dotted green;
-          margin-right: 10em;
+        #left{
+          display:inline-block;
+          float:left;
+          width: 200px;
+          margin-left: 66em;
         }
 
