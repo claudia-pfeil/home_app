@@ -12,33 +12,45 @@
 */
 
 body {
-          font-family: Helvetica-Light, sans-serif;
-          font-size: 12pt;
-          color: grey;
-        }
-
-        #right{
-          display:inline-block;
-          float: right;
-          width: 200px;
-          margin-right: 64em;
-        }
-#right_line{
-          display:inline-block;
-          float: right;
-          width: 200px;
-          margin-right: 60em;
+  font-family: Helvetica-Light, sans-serif;
+  font-size: 12pt;
+  color: grey;
 }
 
-        #left{
-          display:inline-block;
-          float:left;
-          width: 200px;
-          margin-left: 66em;
-        }
+#right{
+  position: relative;
+  display:inline-block;
+  float: right;
+  width: 200px;
+  margin-right: 4em;
+}
+
+#right_line{
+  display:inline-block;
+  float: right;
+  width: 200px;
+  margin-right: 4em;
+}
+
+#left{
+  position: relative;
+  display:inline-block;
+  float:left;
+  width: 200px;
+  margin-left: 5.75em;
+}
 
 #image {
-          margin-top: 20em;
+  margin-top: 20em;
 }
 
+#box {
+  position:relative;
+  width:610px;
+  height: 400px;
+  margin-top: 20em;
+  margin-left:60em;
+  align:center;
+
+}
 
